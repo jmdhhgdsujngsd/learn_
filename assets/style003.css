@@ -1,0 +1,30 @@
+.box {
+    display: flex;
+    background-color: #00b3ffbe;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.con1 {
+    background-color: #ff0000;
+    width: 20%;
+    height: 100px;
+    margin: 10px;
+    /* flex-grow: 1; */
+    flex: 2;
+}
+.con2 {
+    background-color: #00ff00;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    flex: 1;
+}
+.con3 {
+    background-color: #0000ff;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    flex: 1;
+}

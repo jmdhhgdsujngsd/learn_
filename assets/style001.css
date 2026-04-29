@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 导航栏父盒子 */
+.nav {
+  background: #2c3e50;
+  padding: 15px 30px;
+  
+  /* 开启 Flex */
+  display: flex;
+  /* 左右分开：左边LOGO，右边菜单 */
+  justify-content: space-between;
+  /* 垂直居中 */
+  align-items: center;
+}
+
+/* LOGO 样式 */
+.logo {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* 菜单容器 */
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 25px; /* 菜单之间的距离 */
+}
+
+/* 菜单文字 */
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.menu a:hover {
+  color: #3498db;
+}
