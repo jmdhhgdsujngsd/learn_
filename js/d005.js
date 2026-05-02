@@ -1,13 +1,13 @@
-console.log(1111111111);
 
 class A{
-    constructor(name) {
+    constructor(name, age) {
         this.name = name
+        this.sge = age
     }
     sayHi() {
-        console.log(this.name);
+        console.log(this.name, this.sge);
     }
 }
 
-const a = new A('jack');
+const a = new A('jack', 18)
 a.sayHi()
