@@ -97,6 +97,6 @@ console.log('_'.repeat(40));
 // 空值合并运算符（??）是JavaScript中的一个逻辑运算符，用于处理null或undefined的情况。当左侧的操作数为null或undefined时，返回右侧的操作数；否则，返回左侧的操作数。
 console.log(obj.grade ?? 0);
 
-// Object.assign会对象进行浅复制，复制对象的属性值，如果属性值是一个对象，那么复制的是对象的引用，而不是对象本身
+// Object.assign会对象进行浅克隆，复制对象的属性值，如果属性值是一个对象，那么复制的是对象的引用，而不是对象本身
 let clone = Object.assign({}, obj);
 console.log(clone);
